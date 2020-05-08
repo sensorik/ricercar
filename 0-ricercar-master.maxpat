@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 388.0, 79.0, 584.0, 787.0 ],
+		"rect" : [ 34.0, 34.0, 1372.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,346 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-57",
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 517.953979, 432.0, 42.0, 117.0 ],
+					"presentation_rect" : [ 590.166626, 414.0, 42.0, 50.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[5]",
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ -12 ],
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "live.gain~[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"clipheight" : 25.833333,
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-001.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-002.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-003.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-004.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-005.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-006.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-007.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-008.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-009.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-010.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-011.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+, 							{
+								"filename" : "/Users/akbalkan/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1/files/audio/zeroing-012.aif",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-52",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 659.227112, 242.752579, 150.0, 322.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 873.977051, 123.0, 40.0, 20.0 ],
-					"presentation_rect" : [ 875.500061, 111.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "on/off",
 					"textcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
@@ -226,31 +560,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u283002825" ],
 									"dim" : [ 1, 1 ],
-									"position" : [ 0.0 ],
 									"texture_name" : [ "u494002823" ],
-									"loopreport" : [ 0 ],
-									"interp" : [ 0 ],
-									"vol" : [ 1.0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"automatic" : [ 0 ],
-									"adapt" : [ 1 ],
-									"moviefile" : [ "" ],
-									"output_texture" : [ 0 ],
 									"loopend" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"unique" : [ 0 ],
-									"framereport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"loopstart" : [ 0 ],
 									"engine" : [ "avf" ],
-									"usedstrect" : [ 0 ],
-									"autostart" : [ 1 ],
-									"time" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"looppoints" : [ 0, 0 ],
 									"colormode" : [ "argb" ],
+									"position" : [ 0.0 ],
+									"automatic" : [ 0 ],
+									"vol" : [ 1.0 ],
+									"rate" : [ 1.0 ],
+									"usesrcrect" : [ 0 ],
+									"unique" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"usedstrect" : [ 0 ],
 									"drawto" : [ "" ],
-									"dstrect" : [ 0, 0, 1, 1 ]
+									"interp" : [ 0 ],
+									"output_texture" : [ 0 ],
+									"loopstart" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time" : [ 0 ],
+									"framereport" : [ 0 ],
+									"autostart" : [ 1 ],
+									"adapt" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"moviefile" : [ "" ]
 								}
 
 							}
@@ -803,22 +1137,22 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
-									"pitchshiftcent" : [ 0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
 									"speed" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ]
+									"play" : [ 0 ],
+									"pitchshiftcent" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -1226,7 +1560,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 504.454041, 233.236984, 168.545959, 177.526031 ],
+					"patching_rect" : [ 504.454041, 233.236984, 323.046021, 351.526001 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1485,6 +1819,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1525,6 +1877,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -1647,42 +2017,43 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-57" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-55" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-87" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-87" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "1-pulse.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/+ Common Patch",
+				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-toad.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/+ Common Patch",
+				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-rectangle.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/+ Common Patch",
+				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4-glitch.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/+ Common Patch",
+				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "5-zeroing.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/+ Common Patch",
+				"bootpath" : "~/Documents/Max 7/Packages/a-max/ricercar/ricercar.maxpat_202005$1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
