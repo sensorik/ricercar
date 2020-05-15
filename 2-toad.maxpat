@@ -38,6 +38,46 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.446381, 320.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 289.833405, 12.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 297.007263, 11.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "off only"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-8",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 294.007263, 34.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 294.007263, 34.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -58,7 +98,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.823364, 41.666626, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "116"
+					"text" : "109"
 				}
 
 			}
@@ -93,7 +133,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 779.323364, 34.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -106,7 +146,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 717.823364, 34.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -196,12 +236,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-91",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.078339, 12.0, 67.0, 20.0 ],
+					"patching_rect" : [ 345.078339, 5.5, 75.0, 33.0 ],
 					"style" : "",
-					"text" : "toad on/off"
+					"text" : "toad on/off\nfixel change"
 				}
 
 			}
@@ -212,7 +253,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 345.078339, 34.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -224,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.833405, 12.0, 40.0, 20.0 ],
+					"patching_rect" : [ 241.007263, 12.0, 40.0, 20.0 ],
 					"style" : "",
 					"text" : "on/off"
 				}
@@ -237,8 +278,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.833405, 34.0, 30.0, 30.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 246.007263, 34.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -1300,6 +1341,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1784,6 +1834,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1855,8 +1923,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "bubble text",
 				"default" : 				{
@@ -1879,8 +1945,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
